@@ -2,12 +2,14 @@ How to use this folder
 
 Log into GCP Console Open Cloud Shell and clone this code.
 
-cd into the ~/gcp-terraform-examples/k8s-with-lb/cloud-shell folder
+cd into the ~/gke-cloudshell-demo/ folder
 
 run setup.sh 
 
 Once complete use terraform apply
 
 Once complete run k8sCreds.sh 
+
+When you are done use terraform destroy -auto-approve to remove everyting you made unless you want to pay for these resources
 
 If you ran in this in your own account please run cleanUp.sh
